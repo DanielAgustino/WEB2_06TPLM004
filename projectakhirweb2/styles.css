@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-container, .login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+p a {
+    color: #007bff;
+}
+
+.table-container {
+    margin: 20px 0;
+    overflow-x: auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+.add-data {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-data:hover {
+    background: #218838;
+}
+
+.search-container {
+    margin: 20px 0;
+}
+
+.search-container form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.search-container form label,
+.search-container form input {
+    margin-right: 10px;
+}
+
+.search-container form button {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container form button:hover {
+    background: #218838;
+}
+
+
